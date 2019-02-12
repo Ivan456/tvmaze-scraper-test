@@ -1,0 +1,28 @@
+{
+  "name": "tvmaze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src",
+    "test": "mocha ./test/**/*.js",
+    "scraping": "node ./scrapingApp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "response-time": "^2.3.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "5.6.0",
+    "eslint-config-myschneider": "^2.0.0",
+    "mocha": "^5.2.0"
+  }
+}
